@@ -95,7 +95,10 @@ python3 remove_pattern_watermark.py --help
 ### 1. 直接去水印(最常用)
 
 ```bash
+//linux
 python3 remove_pattern_watermark.py input.pdf output.pdf
+//win
+PS D:\codecv_clean\src> python .\remove_pattern_watermark.py ..\test\test.pdf ..\test\output.pdf
 ```
 
 ### 2. 省略输出文件名(自动生成 `*_clean.pdf`)
